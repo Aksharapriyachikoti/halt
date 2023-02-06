@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Halt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sansita:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="site-logo">
+                <img src="images/output-onlinepngtools.png" alt="logo">
+            </div>
+            <div class="main">
+                <a> where do you want to go </a>
+            </div>
+            <div class="menu">
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+        <section class="h-text">
+            <h1></h1>
+        </section>
+        <form id="route-form">
+            <label for="start-location">Start Location:</label>
+            <input list="suggestions" id="start-location" name="start-location">
+            <br>
+            <label for="destination-location">Destination Location:</label>
+            <input list="desti" id="destination-location" name="destination-location">
+            <br>
+            <button type="submit">Submit</button>
+            <datalist id="suggestions">
+                <option value="kushaiguda">
+                <option value="afzal gunj">
+                <option value="mehadipatnam">
+                <option value="zoo park">
+                <option value="jiyaguda">
+                <option value="alwal">
+                <option value="secunderabad">
+                <option value="l.k.pool">
+                <option value="yousufguda">
+                <option value="uppal">
+                <option value="dilsukhnagar">
+                <option value="ramoji film city">
+                <option value="kphb colony">
+                <option value="borabanda">
+                <option value="charminar">
+                <option value="kphb colony">
+              </datalist>
+              <datalist id="desti">
+                <option value="secunderabad">
+                <option value="sanathnagar">
+                <option value="dilsukhnagar">
+                <option value="w.college">
+                <option value="mehadipatnam">
+                <option value="charminar">
+                <option value="tolichowki">
+                <option value="birla mandir">
+                <option value="zoo park">
+                <option value="afzal gunj">
+                <option value="koti">
+                <option value="patancheru">
+              </datalist>
+          </form>
+          <ul id="buses"></ul>
+
+    </header>
+    <script src="buses.js"></script>
+</body>
+
+  
